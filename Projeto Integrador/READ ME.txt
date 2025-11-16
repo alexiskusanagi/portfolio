@@ -1,0 +1,135 @@
+en
+
+Integrative Project – Administrative Web System
+This project was developed as part of the Vocational Course in Application Development (Senac, Brazil 2025). 
+It is a complete web system, with real functionalities for registration, authentication, service management, and 
+scheduling, aimed at administrative and institutional environments.
+
+Features
+Registration and listing of clients, employees, and services
+
+Employee login and logout with session control
+
+Scheduling and modification of services via backoffice
+
+Sales control and service status tracking
+
+Navigation through specific areas (client, backoffice)
+
+Interface with HTML, CSS, icons, and customized images
+
+Database integration via PHP and SQL
+
+Technologies Used
+PHP for server-side logic
+
+HTML/CSS for page structure and styling
+
+JavaScript (light use) for basic interactions
+
+SQL for data persistence
+
+XAMPP as the local development environment
+
+Git and GitHub for version control and collaboration
+
+Project Structure
+Código
+Integrador/
+├── areacliente/              # Client-facing interface
+├── css/, icons/, img/        # Styles and visual assets
+├── utils/, zold/, ode/       # Auxiliary folders
+├── login_funcionario.php     # Employee authentication
+├── cliente_lista.php         # Client listing
+├── servico_cadastra.php      # Service registration
+├── ver_agenda.php            # Scheduling visualization
+├── vendas.php                # Sales control
+└── sobre.php, index.php      # Institutional pages
+How to Run
+Clone the repository:
+
+bash
+git clone https://github.com/alexiskusanagi/DEV32.git
+Install XAMPP and move the Integrador folder to the htdocs directory.
+
+Import the database (.sql file, if available).
+
+Access via browser:
+
+Código
+http://localhost/Integrador/index.php
+Author
+Alexis Kusanagi Developer transitioning into the technology field, with vocational training and practical school experience 
+in web projects. Fluent in English, with strong communication skills and a focus on continuous learning.
+
+Contact
+GitHub: alexiskusanagi
+E-mail: alexiskusanagi@gmail.com
+=======================================================
+pt-br
+
+Projeto Integrador – Sistema Web Administrativo
+Este projeto foi desenvolvido como parte do curso técnico de Desenvolvimento de Aplicativos (Senac, 2025). 
+Trata-se de um sistema web completo, com funcionalidades reais de cadastro, autenticação, controle de serviços e agendamentos, 
+voltado para ambientes administrativos e institucionais.
+
+Funcionalidades
+Cadastro e listagem de clientes, funcionários e serviços
+
+Login e logout de funcionários com controle de sessão
+
+Agendamento e alteração de serviços via backoffice
+
+Controle de vendas e status de atendimento
+
+Navegação por áreas específicas (cliente, backoffice)
+
+Interface com HTML, CSS, ícones e imagens customizadas
+
+Integração com banco de dados via PHP e SQL
+
+Tecnologias utilizadas
+PHP para lógica de servidor
+
+HTML/CSS para estrutura e estilo das páginas
+
+JavaScript (uso leve) para interações básicas
+
+SQL para persistência de dados
+
+XAMPP como ambiente de desenvolvimento local
+
+Git e GitHub para versionamento e colaboração
+
+Estrutura do projeto
+Código
+Integrador/
+├── areacliente/              # Interface voltada ao cliente
+├── css/, icons/, img/        # Estilos e recursos visuais
+├── utils/, zold/, ode/       # Pastas auxiliares
+├── login_funcionario.php     # Autenticação de funcionários
+├── cliente_lista.php         # Listagem de clientes
+├── servico_cadastra.php      # Cadastro de serviços
+├── ver_agenda.php            # Visualização de agendamentos
+├── vendas.php                # Controle de vendas
+└── sobre.php, index.php      # Páginas institucionais
+Como executar
+Clone o repositório:
+
+bash
+git clone https://github.com/alexiskusanagi/DEV32.git
+Instale o XAMPP e mova a pasta Integrador para o diretório htdocs.
+
+Importe o banco de dados (arquivo .sql, se disponível).
+
+Acesse via navegador:
+
+Código
+http://localhost/Integrador/index.php
+Autor
+Alexis Kusanagi Desenvolvedor em transição para a área de tecnologia, com formação técnica e experiência prática em projetos web. 
+Fluente em inglês, com forte comunicação e foco em aprendizado contínuo.
+
+Contato
+GitHub: alexiskusanagi
+E-mail: alexiskusanagi@gmail.com
