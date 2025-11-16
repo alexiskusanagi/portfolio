@@ -1,0 +1,166 @@
+/* ===== BASE GERAL (usado em ambos catalogo e ver_servico) ===== */
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.global {
+  background-color: rgb(248, 193, 193);
+  border: 4px solid #3b5e47;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 1400px;
+  margin: 30px auto;
+  padding: 20px;
+  color: #3b5e47;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.imagem img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+/* ===== FORMULÁRIOS ===== */
+form.login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+form.login label {
+  font-weight: bold;
+  font-size: 18px;
+  color: #3b5e47;
+}
+
+form.login input,
+form.login select {
+  width: 100%;
+  border: 3px solid #3b5e47;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 14px;
+  color: #3b5e47;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+form.login input[type='submit'] {
+  background-color: #3b5e47;
+  color: #f5f5f5;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+form.login input[type='submit']:hover {
+  background-color: #2e4b38;
+  color: #fff;
+}
+
+/* ===== MENSAGENS ===== */
+.hint { font-size: 13px; color: #666; margin-top: 10px; }
+.erro { color: #b00020; }
+
+/* ===== BOTÃO VOLTAR ===== */
+a img { margin-bottom: 10px; }
+
+/* ===== CATÁLOGO ===== */
+.content2 {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menus33 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+  width: 100%;
+  margin-top: -20px;
+}
+
+.menu33 {
+  width: 350px;
+  background-color: rgb(248, 193, 193);
+  border: 4px solid #3b5e47;
+  border-radius: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cabecalho-servico {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.label {
+  color: #3b5e47;
+  text-align: center;
+  font-weight: bold;
+}
+.label2 { font-size: 20px; margin-bottom: 8px; }
+.label3 { font-size: 18px; margin: -20px 0 10px; }
+.label4 { font-size: 35px; margin-bottom: 8px; display: flex; }
+
+.texto-card {
+  background-color: #3b5e47;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.redirecionar a {
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  font-size: 18px;
+  color: #62b614;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* ===== FUNDO TRANSLÚCIDO ===== */
+.fundo-translucido {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  z-index: -1;
+}
+
+/* ===== AJUSTES ESPECÍFICOS DO ver_servico.php ===== */
+.global.ver-servico { max-width: 600px; }
+.ver-servico .imagem { text-align: center; }
+.ver-servico .imagem img {
+  max-width: 400px;
+  margin: 0 auto 20px;
+  display: block;
+}
