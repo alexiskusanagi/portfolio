@@ -32,32 +32,7 @@ XAMPP as the local development environment
 
 Git and GitHub for version control and collaboration
 
-Project Structure
-Código
-portfolio/
-├── areacliente/                  # Client-facing interface
-├── css/, icons/, img/            # Styles and visual assets
-├── utils/, ode/                  # Auxiliary folders
-├── login_funcionario.php          # Employee authentication
-├── logout_funcionario.php         # Session termination
-├── cliente_lista.php              # Client listing
-├── cliente_altera.php             # Client update
-├── cadastra_cliente_backoffice.php# Client registration (backoffice)
-├── funcionario_lista.php          # Employee listing
-├── funcionario_cadastra.php       # Employee registration
-├── funcionario_altera.php         # Employee update
-├── servico_lista.php              # Service listing
-├── servico_cadastra.php           # Service registration
-├── servico_altera.php             # Service update
-├── agendamento_altera_backoffice.php # Appointment update
-├── agendamento_cancela_backoffice.php# Appointment cancellation
-├── ver_agenda.php                 # Agenda visualization
-├── vendas.php                     # Sales control
-├── venda_status.php               # Sales status
-├── bercarios.php, quartos_criancas.php # Nursery and children’s rooms
-├── recreacao.php, salas_recreacao.php  # Recreation areas
-├── backoffice_Kinder_Haus.php, estrutura_kinder_haus.php # Institutional structure
-└── sobre.php, index.php           # Institutional pages
+
 How to Run
 Clone the repository:
 
@@ -113,32 +88,7 @@ XAMPP como ambiente de desenvolvimento local
 
 Git e GitHub para versionamento e colaboração
 
-Estrutura do projeto
-Código
-portfolio/
-├── areacliente/                  # Interface voltada ao cliente
-├── css/, icons/, img/            # Estilos e recursos visuais
-├── utils/, ode/                  # Pastas auxiliares
-├── login_funcionario.php          # Autenticação de funcionários
-├── logout_funcionario.php         # Encerramento de sessão
-├── cliente_lista.php              # Listagem de clientes
-├── cliente_altera.php             # Alteração de clientes
-├── cadastra_cliente_backoffice.php# Cadastro de clientes (backoffice)
-├── funcionario_lista.php          # Listagem de funcionários
-├── funcionario_cadastra.php       # Cadastro de funcionários
-├── funcionario_altera.php         # Alteração de funcionários
-├── servico_lista.php              # Listagem de serviços
-├── servico_cadastra.php           # Cadastro de serviços
-├── servico_altera.php             # Alteração de serviços
-├── agendamento_altera_backoffice.php # Alteração de agendamentos
-├── agendamento_cancela_backoffice.php# Cancelamento de agendamentos
-├── ver_agenda.php                 # Visualização da agenda
-├── vendas.php                     # Controle de vendas
-├── venda_status.php               # Status de vendas
-├── bercarios.php, quartos_criancas.php # Berçários e quartos de crianças
-├── recreacao.php, salas_recreacao.php  # Áreas de recreação
-├── backoffice_Kinder_Haus.php, estrutura_kinder_haus.php # Estrutura institucional
-└── sobre.php, index.php           # Páginas institucionais
+
 Como executar
 Clone o repositório:
 
