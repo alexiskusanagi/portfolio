@@ -118,7 +118,7 @@ if ($agendamento <= $agora) {
 
 
 
-<div class="global">
+<div class="global ver-servico">
 
   <!-- IMAGEM DO SERVIÇO -->
   <div class="imagem">
