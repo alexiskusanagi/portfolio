@@ -1,0 +1,28 @@
+English
+C# Logic Menu (Console Application) A console-based application developed to practice programming logic in C#. 
+It features a menu system that organizes multiple modules, including geometric calculations, currency conversion, age and BMI 
+computation, prime number verification, multiplication tables, Fibonacci sequence, and more. This project aims to demonstrate structured 
+problem-solving, modular class design, and the application of fundamental programming concepts.
+
+Highlighted Feature 
+– Geometric Area and Volume (2D and 3D) The project includes a module for calculating the area of two-dimensional 
+figures (square, rectangle, triangle, circle) and extends to three-dimensional figures (cube, rectangular prism, pyramid, sphere).
+Hidden Feature
+– Logic Game. The project contains a hidden feature accessible through the main menu. Although the menu displays options from 0 to 
+10, typing 33 unlocks a special module: the Logic Game. Which is a logic-based game developed in C#. It challenges the user to deduce the 
+correct cube root of a randomly generated two-digit number, using hints and a structured console interface.
+
+=======================================
+=======================================
+Português Brasileiro
+Menu de Lógica em C# (Aplicação de Console) Aplicação em console desenvolvida para praticar lógica de programação 
+em C#. Possui um sistema de menu que organiza diversos módulos, como cálculos geométricos, conversão de moedas, cálculo de idade e 
+IMC, verificação de números primos, tabuada, sequência de Fibonacci e outros. Este projeto busca demonstrar resolução estruturada 
+de problemas, design modular em classes e aplicação de conceitos fundamentais de programação.
+
+Funcionalidade em Destaque 
+– Área e Volume Geométrico (2D e 3D) O projeto possui um módulo para cálculo de áreas de figuras bidimensionais 
+(quadrado, retângulo, triângulo, círculo) e também de figuras tridimensionais (cubo, paralelepípedo, pirâmide, esfera).
+Funcionalidade Oculta
+– Jogo de Lógica O projeto inclui um jogo de lógica desenvolvido em C#. Ele desafia o usuário a deduzir a 
+raiz cúbica correta de um número de dois dígitos gerado aleatoriamente, utilizando dicas e uma interface estruturada no console.
