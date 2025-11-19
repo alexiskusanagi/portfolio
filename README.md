@@ -11,6 +11,7 @@ Clone the repository:
 bash
 git clone https://github.com/alexiskusanagi/portfolio.git
 Navigate to the desired project folder and follow the instructions provided in its README.
+
 ------------------------------
 ------------------------------
 Português Brasileiro
