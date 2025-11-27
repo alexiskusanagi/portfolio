@@ -13,7 +13,11 @@ Clone the repository:
 
 bash
 git clone https://github.com/alexiskusanagi/portfolio.git
-Navigate to the desired project folder and follow the instructions provided in its README.
+Navigate to the desired project folder and follow the instructions provided in its respective README.
+
+Contributions to third-party projects
+
+ProjetoFilmeflix: a group API project developed in collaboration with students from the Senac course. I contributed to the fantasy page, organizing the layout and creating the comment section.
 
 ------------------------------
 ------------------------------
@@ -32,4 +36,10 @@ Clone o repositório:
 
 bash
 git clone https://github.com/alexiskusanagi/portfolio.git
-Acesse a pasta do projeto desejado e siga as instruções disponíveis em seu README.
+Acesse a pasta do projeto desejado e siga as instruções disponíveis em seu respectivo README.
+
+Contribuições em projetos de terceiros
+
+- [ProjetoFilmeflix](https://github.com/anastacius/ProjetoFilmeflix): Projeto de API em equipe com
+alunos do curso do Senac. Colaborei com a página fantasia, organizando o layout e criando a sessão 
+de incluir comentários.
