@@ -17,7 +17,7 @@ Navigate to the desired project folder and follow the instructions provided in i
 
 Contributions to third-party projects
 
-ProjetoFilmeflix: a group API project developed in collaboration with students from the Senac course. I contributed to the fantasy page, organizing the layout and creating the comment section.
+- [ProjetoFilmeflix](https://github.com/anastacius/ProjetoFilmeflix) a group API project developed in collaboration with students from the Senac course. I contributed to the fantasy page, organizing the layout and creating the comment section.
 
 ------------------------------
 ------------------------------
