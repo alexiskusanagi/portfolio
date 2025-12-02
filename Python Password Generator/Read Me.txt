@@ -1,0 +1,64 @@
+Secure Password Generator 
+English
+Overview
+This project is a simple Secure Password Generator written in Python. Its sole purpose is to practice basic concepts such as string manipulation, 
+randomization, and input/output handling.
+
+The program allows the user to generate random passwords with letters, numbers, and symbols. Currently, it generates an 8-character password when 
+the user selects the option.
+
+Features
+Generates random passwords with uppercase letters, lowercase letters, numbers, and symbols.
+
+Simple command-line interface.
+
+Practincing Python fundamentals: random, sys, loops, and string concatenation.
+
+How to Run
+Make sure you have Python 3 installed.
+
+Save the script as password_generator.py.
+
+Run the program in the terminal:
+
+
+python password_generator.py
+Follow the instructions:
+
+Enter 1 to generate an eight-character random password.
+
+Enter 0 to exit the program.
+
+
+============================================================
+
+Gerador de Senhas Seguras
+Português Brasileiro
+Visão Geral
+Este projeto é um Gerador de Senhas Seguras simples escrito em Python. Foi feito com intuito de treinar conceitos básicos como 
+manipulação de strings, randomização e entrada/saída.
+
+O programa permite ao usuário gerar senhas aleatórias com letras, números e símbolos. Atualmente, ele gera uma senha de oito caracteres 
+quando o usuário seleciona a opção.
+
+Funcionalidades
+Gera senhas aleatórias com letras maiúsculas, minúsculas, números e símbolos.
+
+Interface simples via linha de comando.
+
+Treino de fundamentos de Python: random, sys, laços e concatenação de strings.
+
+Como Executar
+Certifique-se de ter o Python 3 instalado.
+
+Salve o script como password_generator.py.
+
+Execute o programa no terminal:
+
+
+python password_generator.py
+Siga as instruções:
+
+Digite 1 para gerar uma senha aleatória de 8 caracteres.
+
+Digite 0 para sair do programa.
