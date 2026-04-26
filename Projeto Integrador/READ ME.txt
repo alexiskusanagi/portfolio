@@ -1,4 +1,4 @@
-en
+english
 
 Integrative Project – Administrative Web System
 This project was developed as part of the Vocational Course in Application Development (Senac, Brazil, 2025). 
