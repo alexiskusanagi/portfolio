@@ -1,4 +1,4 @@
-
+import dados_privados
 
 meu_perfil = {
     "hard_skills": {
@@ -21,7 +21,22 @@ meu_perfil = {
     "local": {
         "Ribeirão Preto":["ribeirão preto", "são paulo", "sp", "remoto", "home office"]
     }
+    
 }
+
+# Esses blocos podem ficar no seu script principal
+BLOCOS_EXPERIENCIA = {
+    "Python": "Ledger Financeiro: Desenvolvimento de API (FastAPI) com persistência em PostgreSQL e Docker. Foco em precisão decimal e integridade de dados.",
+    "C#": "Desenvolvimento Desktop: Criação de sistemas CRUD utilizando C# e Windows Forms, com integração a bancos de dados SQL.",
+    "SQL": "Modelagem de Dados: Experiência prática em bancos relacionais (PostgresSQL/MySQL), criação de queries complexas e diagramas ER.",
+    "Inglês Fluente": "Formação Internacional: Mais de 12 anos como educador, com foco em comunicação, documentação técnica, mentoria e feedbacks.",
+    "PHP": "Desenvolvimento Web: Criação de sites institucionais com arquitetura modular, autenticação e integração com APIs REST.",
+    "Docker": "DevOps: Conteinerização de aplicações para garantir paridade entre ambientes.",
+    "Formulários": "Análise B2B: Experiência em recuperação de ativos, atuando com análise de bases de dados, relatórios técnicos e documentação de processos."
+}
+
+RESUMO_GERAL = "Profissional em transição para TI, unindo sólida bagagem lógica (Filosofia) e comunicação (Inglês) com desenvolvimento Backend."
+
 
 def analisar_match_inteligente(texto_vaga):
     texto_vaga = texto_vaga.lower()
@@ -40,24 +55,34 @@ def analisar_match_inteligente(texto_vaga):
     score = (pontos / total_itens) * 100
     return skills_confirmadas, round(score, 2)
 
+def preparar_conteudo_pdf(skills_confirmadas):
+    conteudo_para_pdf = []
+    
+    # Percorrendo todos os textos que temos cadastrados
+    for skill, texto in BLOCOS_EXPERIENCIA.items():
+        if skill in skills_confirmadas:
+            conteudo_para_pdf.append(texto)
+            
+    return conteudo_para_pdf
+
 # --- TESTE PRÁTICO ---
 vaga_linkedin = """Procuramos Dev .NET em Ribeirão Preto. 
 Necessário Inglês avançado para leitura de documentação técnica. 
 Desejável conhecimento em bancos relacionais e Docker."""
+
 skills, score = analisar_match_inteligente(vaga_linkedin)
+
+# --- EXECUÇÃO ATUALIZADA ---
+skills, score = analisar_match_inteligente(vaga_linkedin)
+lista_para_escrever = preparar_conteudo_pdf(skills)
+
 
 print(f"Match Score: {score}%")
 print(f"O bot encontrou: {skills}")
+print(f"\nConteúdo selecionado para o PDF baseado no Match de {score}%:")
+for linha in lista_para_escrever:
+    print(f"-> {linha}")
 
 
-def gerar_curriculo_otimizado(skills_confirmadas):
-    print("\n--- PLANO DE GERAÇÃO DE PDF ---")
-    for categoria in meu_perfil["hard_skills"]:
-        if categoria in skills_confirmadas:
-            print(f"[ MANTER ] {categoria} -> Relevante para a vaga.")
-        else:
-            print(f"[ OMITIR ] {categoria} -> Irrelevante para esta vaga.")
 
-# Chamando a nova função usando o resultado que você acabou de obter
-gerar_curriculo_otimizado(skills)
 
