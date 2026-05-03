@@ -17,7 +17,6 @@ New projects will be added as it goes.
 How to run
 Clone the repository:
 
-bash
 git clone https://github.com/alexiskusanagi/portfolio.git
 Navigate to the desired project folder and follow the instructions provided in its respective README.
 
@@ -46,7 +45,6 @@ Novos projetos serão adicionados conforme o aprendizado evolui.
 Como executar
 Clone o repositório:
 
-bash
 git clone https://github.com/alexiskusanagi/portfolio.git
 Acesse a pasta do projeto desejado e siga as instruções disponíveis em seu respectivo README.
 
