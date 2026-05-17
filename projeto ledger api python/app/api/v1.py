@@ -1,22 +1,19 @@
-from fastapi import FastAPI, HTTPException, Depends
+from fastapi import APIRouter, HTTPException, Depends
 from decimal import Decimal
 from sqlalchemy.orm import Session
-from database import engine, Base, get_db
-import models
 
-Base.metadata.create_all(bind=engine)
+# Importamos a conexão e os modelos apontando os caminhos corretos
+from app.infra.database import get_db
+from app.infra import models
 
-app = FastAPI()
+# Criamos o roteador que vai "guardar" as rotas temporariamente
+router = APIRouter()
 
-@app.get("/")
-async def home():
-    return {"mensagem": "Ledger API Online", "status": "Conectado ao Postgres"}
-
-@app.get("/simular-saldo")
+@router.get("/simular-saldo")
 async def saldo():
     return {"conta": "12345-6", "saldo": Decimal("1500.50")}
 
-@app.post("/contas/")
+@router.post("/contas/")
 async def criar_conta(titular: str, saldo_inicial: Decimal, db: Session = Depends(get_db)):
     nova_conta = models.Conta(titular=titular, saldo=saldo_inicial)
     db.add(nova_conta)
@@ -24,7 +21,7 @@ async def criar_conta(titular: str, saldo_inicial: Decimal, db: Session = Depend
     db.refresh(nova_conta)
     return nova_conta
 
-@app.get("/saldo/{conta_id}")
+@router.get("/saldo/{conta_id}")
 async def buscar_saldo(conta_id: int, db: Session = Depends(get_db)):
     conta = db.query(models.Conta).filter(models.Conta.id == conta_id).first()
     if not conta:

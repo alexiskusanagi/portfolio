@@ -1,3 +1,19 @@
 projeto ledger api python/.venv/
 projeto ledger api python/__pycache__/
 Projeto Agente Autonomo Conversor de CV/ dados_privados.py/
+
+# Ambientes Virtuais
+.venv/
+venv/
+ENV/
+
+# Caches do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de dados privados do outro projeto
+dados_privados.py
+
+# Configurações do VS Code
+.vscode/

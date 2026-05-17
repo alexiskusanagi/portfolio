@@ -1,5 +1,6 @@
 from sqlalchemy import Column, Integer, String, Numeric
-from database import Base
+# Mudança aqui: deixando claro a origem do pacote
+from app.infra.database import Base
 
 class Conta(Base):
     __tablename__ = "contas"
