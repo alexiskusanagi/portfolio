@@ -8,9 +8,11 @@ This repository gathers personal projects created for study and practice. Curren
 
 3 - Career Automation Agent (ATS Optimization Engine - Console/Terminal Application): A backend Python program designed to mitigate the barriers of Applicant Tracking Systems (ATS). The engine processes job descriptions, calculates a Match Score, and applies dynamic data pruning to the candidate's profile. It automatically generates an optimized PDF resume, maintaining only the experiences and technologies strictly relevant to the target opportunity. (Version 1.0 - Still requires practical and aesthetic UI/UX improvements).
 
-4 - C# Logic Menu (Console Application): A console-based application designed to practice programming logic. It includes modules for geometric area and volume calculations (2D and 3D), currency conversion, BMI computation, prime number verification, multiplication tables, Fibonacci sequence, and a hidden Logic Game (cube root challenge).
+4 - The Cisco Study Simulator is a web-based application that reproduces, in a simplified and controlled manner, some of the behaviors found in the command-line interface of Cisco switches. Its primary purpose is not to replace existing tools such as Cisco Packet Tracer, GNS3, or any physical networking equipment. Instead, the project was developed as a complementary network study tool, allowing users to experiment with commands and receive immediate feedback on the configurations and commands entered, while observing the relationships between them without the need of a physical laboratory environment. The simulator features an interactive CLI, a contextual help system, command history, guided objectives, switch-state visualization, and a simplified representation of RAM and NVRAM.
 
-5 - Python Secure Password Generator: Simple script that generates random secure passwords using letters, numbers, and symbols.
+5 - C# Logic Menu (Console Application): A console-based application designed to practice programming logic. It includes modules for geometric area and volume calculations (2D and 3D), currency conversion, BMI computation, prime number verification, multiplication tables, Fibonacci sequence, and a hidden Logic Game (cube root challenge).
+
+6 - Python Secure Password Generator: Simple script that generates random secure passwords using letters, numbers, and symbols.
 
 New projects will be added as it goes.
 
@@ -36,9 +38,11 @@ Este repositório reúne projetos pessoais desenvolvidos para estudo e prática.
 
 3 - Agente de Automação de Carreira (Motor de Otimização ATS - Aplicação de Console / Terminal) Programa backend em Python para mitigar as barreiras de sistemas de triagem automática (ATS). O motor realiza o processamento de descrições de vagas, calcula um índice de relevância (Match Score) e aplica uma poda dinâmica de dados no perfil do candidato, gerando automaticamente um currículo em PDF otimizado, mantendo apenas as experiências e tecnologias estritamente relevantes para a oportunidade alvo. (Versao 1.0 precisa de muitas melhorias práticas e estéticas - UI/UX)
 
-4 – Menu de Lógica em C# (Aplicação de Console) Aplicação em console desenvolvida para praticar lógica de programação. Inclui módulos de cálculo de áreas e volumes geométricos (2D e 3D), conversão de moedas, cálculo de IMC, verificação de números primos, tabuada, sequência de Fibonacci e um Jogo de Lógica oculto (desafio da raiz cúbica).
+4 - O Cisco Study Simulator é uma aplicação web que reproduz, de forma simplificada e controlada, alguns comportamentos encontrados na interface de linha de comando de switches Cisco. O objetivo principal não é substituir ferramentas como Cisco Packet Tracer, GNS3 ou equipamentos físicos. O projeto foi desenvolvido como uma ferramenta complementar de estudo de redes, permitindo experimentar comandos recebendo um feedback instantâneo sobre as configurações e comandos imputados e observar a relação entre eles sem a necessidade de um ambiente de laboratório físico. O simulador possui uma CLI interativa, sistema de ajuda contextual, histórico de comandos, objetivos guiados, visualização do estado do switch e uma representação simplificada da memória RAM e NVRAM.
 
-5 - Gerador de Senhas Seguras em Python: Script simples que gera senhas aleatórias seguras com letras, números e símbolos.
+5 – Menu de Lógica em C# (Aplicação de Console) Aplicação em console desenvolvida para praticar lógica de programação. Inclui módulos de cálculo de áreas e volumes geométricos (2D e 3D), conversão de moedas, cálculo de IMC, verificação de números primos, tabuada, sequência de Fibonacci e um Jogo de Lógica oculto (desafio da raiz cúbica).
+
+6 - Gerador de Senhas Seguras em Python: Script simples que gera senhas aleatórias seguras com letras, números e símbolos.
 
 Novos projetos serão adicionados conforme o aprendizado evolui.
 
