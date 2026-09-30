@@ -1,19 +1,12 @@
-======= English
+English
 
 Cisco Study Simulator
 
-Interactive Cisco command simulator developed for educational purposes.
-
-The project started as a personal study tool to gain a practical understanding of the basic operation of a Cisco switch. The initial idea was to test commands, observe their effects, and validate concepts learned while studying computer networks.
-
-Over time, the project evolved to simulate different CLI modes, VLANs, interfaces, Port Security, connectivity, and configuration persistence.
+Interactive Cisco command simulator developed for educational purposes. The project started as a personal study tool to gain a practical understanding of the basic operation of a Cisco switch. The initial idea was to test commands, observe their effects, and validate concepts learned while studying computer networks. Over time, the project evolved to simulate different CLI modes, VLANs, interfaces, Port Security, connectivity, and configuration persistence.
 
 About the Project
 
-Cisco Study Simulator is a web application that reproduces, in a simplified manner, some of the concepts found in Cisco switch configuration.
-
-The goal is not to replace tools such as Cisco Packet Tracer or real networking equipment, but to provide a simple environment for practicing commands and understanding the logic behind network configurations.
-
+Cisco Study Simulator is a web application that reproduces, in a simplified manner, some of the concepts found in Cisco switch configuration. The goal is not to replace tools such as Cisco Packet Tracer or real networking equipment, but to provide a simple environment for practicing commands and understanding the logic behind network configurations.
 The project also includes a guided objectives system, allowing users to study specific concepts by following a sequence of commands.
 
 Features
@@ -277,24 +270,19 @@ License
 The project license has not yet been defined.
 
 
+===============================================
+===============================================
 
-=======  Português Brasileiro
+
+Português Brasileiro
 
 Cisco Study Simulator
 
-Simulador interativo de comandos Cisco desenvolvido para fins educacionais.
-
-O projeto começou como uma ferramenta pessoal de estudo para entender, na prática, o funcionamento básico de um switch Cisco. A ideia inicial era testar comandos, observar seus efeitos e validar conceitos aprendidos durante os estudos de redes.
-
-Com o tempo, o projeto evoluiu e passou a simular diferentes modos da CLI, VLANs, interfaces, Port Security, conectividade e persistência de configurações.
+Simulador interativo de comandos Cisco desenvolvido para fins educacionais. O projeto começou como uma ferramenta pessoal de estudo para entender, na prática, o funcionamento básico de um switch Cisco. A ideia inicial era testar comandos, observar seus efeitos e validar conceitos aprendidos durante os estudos de redes. Com o tempo, o projeto evoluiu e passou a simular diferentes modos da CLI, VLANs, interfaces, Port Security, conectividade e persistência de configurações.
 
 Sobre o projeto
 
-O Cisco Study Simulator é uma aplicação web que reproduz de forma simplificada alguns conceitos encontrados na configuração de switches Cisco.
-
-O objetivo não é substituir ferramentas como Cisco Packet Tracer ou equipamentos reais, mas oferecer um ambiente simples para praticar comandos e entender a lógica por trás das configurações.
-
-O projeto também possui um sistema de objetivos guiados, permitindo estudar determinados conceitos seguindo uma sequência de comandos.
+O Cisco Study Simulator é uma aplicação web que reproduz de forma simplificada alguns conceitos encontrados na configuração de switches Cisco. O objetivo não é substituir ferramentas como Cisco Packet Tracer ou equipamentos reais, mas oferecer um ambiente simples para praticar comandos e entender a lógica por trás das configurações. O projeto também possui um sistema de objetivos guiados, permitindo estudar determinados conceitos seguindo uma sequência de comandos.
 
 Funcionalidades
 
