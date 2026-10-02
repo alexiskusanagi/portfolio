@@ -1,6 +1,6 @@
 English 
 
-This repository gathers personal projects created for study and practice. Currently, it contains five projects:
+This repository gathers personal projects created for study and practice. Currently, it contains six projects:
 
 1 - Administrative Web System (Integrative Project): an application focused on registration, authentication, service management, and scheduling in an administrative environment.
 
@@ -30,7 +30,7 @@ Contributions to third-party projects
 ------------------------------
 Português Brasileiro
 
-Este repositório reúne projetos pessoais desenvolvidos para estudo e prática. Atualmente, contém cinco projetos:
+Este repositório reúne projetos pessoais desenvolvidos para estudo e prática. Atualmente, contém seis projetos:
 
 1 - Sistema Web Administrativo (Integrador): aplicação voltada para cadastro, autenticação, controle de serviços e agendamentos em ambiente administrativo.
 
